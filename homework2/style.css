@@ -1,0 +1,54 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: grey;
+}
+
+header{
+  height: 50px;
+}
+
+.content{
+  padding-top: 90px;
+}
+
+div{
+  width: 100%;
+  height: 50px;
+  clear: both;
+}
+
+ul li{
+  padding: 5px 20px;
+  height: 40px;
+  list-style: none;
+  float:left;
+  border: 2px solid white;
+}
+
+li>ul>li{
+  margin: 0;
+  clear: right;
+  border: none;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover{
+  color: #FFFFFF;
+}
+
+a:visited{
+  color: #AA00FF;
+}
+
+.a1, .a2, .a3{
+  height: 600px;
+}
+
+.about_us, .contacts{
+  height: 200px;
+}
