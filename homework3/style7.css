@@ -1,0 +1,38 @@
+body{
+  background-image: url(https://static.pexels.com/photos/36764/marguerite-daisy-beautiful-beauty.jpg);
+  background-size: 100%;
+}
+
+div.name{
+  position: fixed;
+  left: 35%;
+  top: 10 px;
+  padding: 10px;
+  font: 30px "Times New Roman";
+  color: white;
+  background-color: #38A5F1;
+  background: rgba(46,255,248,1);
+  background: -moz-linear-gradient(-45deg, rgba(46,255,248,1) 0%, rgba(46,255,248,1) 24%, rgba(46,255,248,1) 33%, rgba(35,255,247,1) 38%, rgba(0,255,242,1) 53%, rgba(0,189,173,1) 67%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(46,255,248,1)), color-stop(24%, rgba(46,255,248,1)), color-stop(33%, rgba(46,255,248,1)), color-stop(38%, rgba(35,255,247,1)), color-stop(53%, rgba(0,255,242,1)), color-stop(67%, rgba(0,189,173,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(46,255,248,1) 0%, rgba(46,255,248,1) 24%, rgba(46,255,248,1) 33%, rgba(35,255,247,1) 38%, rgba(0,255,242,1) 53%, rgba(0,189,173,1) 67%);
+  background: -o-linear-gradient(-45deg, rgba(46,255,248,1) 0%, rgba(46,255,248,1) 24%, rgba(46,255,248,1) 33%, rgba(35,255,247,1) 38%, rgba(0,255,242,1) 53%, rgba(0,189,173,1) 67%);
+  background: -ms-linear-gradient(-45deg, rgba(46,255,248,1) 0%, rgba(46,255,248,1) 24%, rgba(46,255,248,1) 33%, rgba(35,255,247,1) 38%, rgba(0,255,242,1) 53%, rgba(0,189,173,1) 67%);
+  background: linear-gradient(135deg, rgba(46,255,248,1) 0%, rgba(46,255,248,1) 24%, rgba(46,255,248,1) 33%, rgba(35,255,247,1) 38%, rgba(0,255,242,1) 53%, rgba(0,189,173,1) 67%);
+}
+
+div.content{
+  padding-top: 200px;
+  font-size: 25px;
+  color: #38F1EB;
+}
+
+div.content div{
+  color: black;
+  background: rgba(212,228,239,0.85);
+background: -moz-linear-gradient(-45deg, rgba(212,228,239,0.85) 6%, rgba(184,208,226,0.85) 26%, rgba(137,176,205,0.71) 59%, rgba(134,174,204,0.71) 61%);
+background: -webkit-gradient(left top, right bottom, color-stop(6%, rgba(212,228,239,0.85)), color-stop(26%, rgba(184,208,226,0.85)), color-stop(59%, rgba(137,176,205,0.71)), color-stop(61%, rgba(134,174,204,0.71)));
+background: -webkit-linear-gradient(-45deg, rgba(212,228,239,0.85) 6%, rgba(184,208,226,0.85) 26%, rgba(137,176,205,0.71) 59%, rgba(134,174,204,0.71) 61%);
+background: -o-linear-gradient(-45deg, rgba(212,228,239,0.85) 6%, rgba(184,208,226,0.85) 26%, rgba(137,176,205,0.71) 59%, rgba(134,174,204,0.71) 61%);
+background: -ms-linear-gradient(-45deg, rgba(212,228,239,0.85) 6%, rgba(184,208,226,0.85) 26%, rgba(137,176,205,0.71) 59%, rgba(134,174,204,0.71) 61%);
+background: linear-gradient(135deg, rgba(212,228,239,0.85) 6%, rgba(184,208,226,0.85) 26%, rgba(137,176,205,0.71) 59%, rgba(134,174,204,0.71) 61%);
+}
