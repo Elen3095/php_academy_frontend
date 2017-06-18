@@ -1,0 +1,85 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+form{
+  display: block;
+  padding:10px;
+  margin-left:33%;
+  margin-top:20px;
+  align:center;
+  border: 2px solid grey;
+  width:30%;
+  background-color:grey;
+  color:white;
+}
+
+input{
+  padding:5px;
+}
+
+.main {
+  font: 20px Arial;
+}
+
+label[for="work"]{
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+  color: #FFF033;
+}
+
+textarea{
+  margin: 0 auto;
+  width:400px;
+  height:80px;
+}
+
+/*pseudo classes*/
+input:focus, textarea:focus, option:focus {
+  border:2px solid #33FFEC;
+}
+
+option:checked{
+  color: #33FFEC;
+  font-weight: bold;
+}
+label.main::after{
+content: "*";
+}
+
+div:first-of-type{
+  font-size: 20px;
+}
+
+div.foot{
+  display: inline-block;
+}
+
+div.buttons{
+  float:left;
+  margin-right: 100px;
+}
+
+div.contactUs{
+  float:right;
+}
+
+div.contactUs::selection, div.buttons>input:hover {
+    color: #0F0D6E;
+    background: #38F1D2;
+}
+
+a:hover{
+  color:#338AFF;
+}
+
+a:active{
+  color: #3346FF;
+}
+
+a:visited{
+  color: #B0A4CA;
+}
