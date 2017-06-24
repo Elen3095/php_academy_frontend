@@ -1,0 +1,92 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: grey;
+}
+
+header{
+  height: 50px;
+}
+
+.menu{
+  position:fixed;
+  background-color: #008080;
+  padding: 5px;
+}
+
+/*.content{
+  padding-top: 90px;
+}*/
+
+div{
+  width: 100%;
+  clear: both;
+}
+
+ul li{
+  padding: 5px 20px;
+  height: 40px;
+  list-style: none;
+  float:left;
+  border: 2px solid white;
+}
+
+li>ul>li{
+  margin: 0;
+  clear: right;
+  border: none;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+  /*transition*/
+  transition: color 2s, font-size 1.5s linear;
+}
+
+a:hover{
+  color: #FFFFFF;
+  font-size: 120%;
+  /*transform*/
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+.grass>a:hover{
+  -webkit-transform: skewX(0deg);
+  transform: skewX(0deg);
+}
+
+img{
+  -webkit-animation: showBig 3s linear 4;
+  animation: showBig 3s linear 4;
+}
+
+@keyframes showBig {
+from{
+    width: 400px;
+  }
+to{
+   width: 450px;
+  }
+}
+
+a:visited{
+  color: #AA00FF;
+}
+
+.a1, .a2, .a3{
+  height: 600px;
+}
+
+p.grass{
+  text-align: center;
+}
+
+img{
+    width:400px;
+}
+
+.about_us, .contacts{
+  height: 200px;
+}
