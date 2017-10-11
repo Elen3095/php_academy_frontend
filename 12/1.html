@@ -1,0 +1,35 @@
+<!-- Задание 1.
+Создайте страницу с кнопкой, при нажатии по кнопке на странице должен
+создаваться параграф с произвольным текстом. После создания 10 параграфов
+все они должны быть удалены.  -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>task1</title>
+  </head>
+  <body>
+    <button type="button" onclick="myF()">Create</button>
+      <div id="div">
+      </div>
+    <script>
+    var i=1;
+    function myF() {
+      if (i<11){
+    var para = document.createElement("P");
+    var t = document.createTextNode(i+" "+"Some text");
+    para.appendChild(t);
+    document.getElementById("div").appendChild(para);
+    i+=1;
+ } else {
+      var div = document.getElementById("div");
+      i=1;
+      while (div.firstChild) {
+      div.removeChild(div.firstChild);
+}
+ }
+}
+
+    </script>
+  </body>
+</html>

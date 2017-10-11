@@ -1,0 +1,29 @@
+<!-- Задание 2. -->
+<!-- Разработайте модуль, который будет содержать функцию для получения
+элементов на странице с определенным значением в атрибуте с именем class.
+ Пример использование модуля. var arr = MyQuery.FindClass(“redButton”);
+ – возвращает массив элементов с атрибутом class=”redButton”.  -->
+ <!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8">
+     <title>task2</title>
+   </head>
+   <body>
+      <p class="del">wwwwwww</p>
+      <p class="del">wwwwwww</p>
+      <p>fdfdf</p>
+      <p>fdfdf</p>
+      <p id="insert"></p>
+      <button onclick="FGet()">Get and show</button>
+      <script>
+      function FGet() {
+        var list = document.getElementsByClassName("del");
+        console.log(list);
+}
+
+
+
+      </script>
+   </body>
+ </html>
